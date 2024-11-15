@@ -1,11 +1,10 @@
-require('dotenv').config(); // Load environment variables
 const { Client } = require('discord.js-selfbot-v13');
 
 // Create two clients for two accounts
 const account1 = new Client();
 const account2 = new Client();
 
-// Tokens from .env
+// Retrieve tokens from environment variables
 const TOKEN_ACCOUNT1 = process.env.TOKEN_ACCOUNT1;
 const TOKEN_ACCOUNT2 = process.env.TOKEN_ACCOUNT2;
 
